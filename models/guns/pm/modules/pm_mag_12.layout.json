@@ -1,0 +1,57 @@
+{
+  "format": "czo_obj_gun_layout",
+  "version": 1,
+  "model": "czo:models/guns/pm/modules/pm_mag_12.obj",
+  "texture": "czo:textures/guns/pm_palette.png",
+  "coordinate_system": {
+    "right": "+X",
+    "forward": "+Y",
+    "up": "+Z"
+  },
+  "root": "root",
+  "parts": [
+    {
+      "name": "part_magazine_12",
+      "type": "MESH",
+      "parent": "root",
+      "translation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "rotation_degrees": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "points": [
+    {
+      "name": "socket_magazine",
+      "type": "EMPTY",
+      "parent": "root",
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_degrees": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.079398,
+        0.079398,
+        0.079398
+      ]
+    }
+  ],
+  "module_slots": {}
+}

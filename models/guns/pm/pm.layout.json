@@ -1,0 +1,382 @@
+{
+  "format": "czo_obj_gun_layout",
+  "version": 1,
+  "model": "czo:models/guns/pm/pm.obj",
+  "texture": "czo:textures/guns/pm_palette.png",
+  "coordinate_system": {
+    "right": "+X",
+    "forward": "+Y",
+    "up": "+Z"
+  },
+  "root": "root",
+  "parts": [
+    {
+      "name": "part_base_cheeks",
+      "type": "MESH",
+      "parent": "root",
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_degrees": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "part_base_sight",
+      "type": "MESH",
+      "parent": "root",
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_degrees": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "part_body",
+      "type": "MESH",
+      "parent": "root",
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_degrees": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "part_magazine_8",
+      "type": "MESH",
+      "parent": "root",
+      "translation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "rotation_degrees": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "part_slide",
+      "type": "MESH",
+      "parent": "root",
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_degrees": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "points": [
+    {
+      "name": "hand_left",
+      "type": "EMPTY",
+      "parent": "root",
+      "translation": [
+        -0.036804,
+        0.000445,
+        -0.070191
+      ],
+      "rotation_degrees": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "hand_right",
+      "type": "EMPTY",
+      "parent": "root",
+      "translation": [
+        -0.036804,
+        0.000445,
+        -0.000191
+      ],
+      "rotation_degrees": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "render_gui",
+      "type": "EMPTY",
+      "parent": "root",
+      "translation": [
+        0.38,
+        0.137242,
+        0.040897
+      ],
+      "rotation_degrees": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "socket_charm",
+      "type": "EMPTY",
+      "parent": "root",
+      "translation": [
+        -0.036804,
+        0.083428,
+        0.077757
+      ],
+      "rotation_degrees": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "socket_cheeks",
+      "type": "EMPTY",
+      "parent": "root",
+      "translation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "rotation_degrees": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "socket_magazine",
+      "type": "EMPTY",
+      "parent": "root",
+      "translation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "rotation_degrees": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "socket_muzzle",
+      "type": "EMPTY",
+      "parent": "root",
+      "translation": [
+        0.0,
+        0.331803,
+        0.131418
+      ],
+      "rotation_degrees": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "socket_muzzle_attachment",
+      "type": "EMPTY",
+      "parent": "root",
+      "translation": [
+        0.0,
+        0.331803,
+        0.131418
+      ],
+      "rotation_degrees": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "socket_optic",
+      "type": "EMPTY",
+      "parent": "root",
+      "translation": [
+        0.0,
+        -0.031197,
+        0.159418
+      ],
+      "rotation_degrees": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "socket_shell",
+      "type": "EMPTY",
+      "parent": "root",
+      "translation": [
+        0.0,
+        0.1,
+        0.15
+      ],
+      "rotation_degrees": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "view_idle",
+      "type": "EMPTY",
+      "parent": "root",
+      "translation": [
+        -0.267744,
+        -0.534761,
+        0.475451
+      ],
+      "rotation_degrees": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "view_iron",
+      "type": "EMPTY",
+      "parent": "root",
+      "translation": [
+        0.0,
+        -0.32217,
+        0.182862
+      ],
+      "rotation_degrees": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "module_slots": {
+    "magazine": {
+      "socket": "socket_magazine",
+      "hide_parts_when_installed": [
+        "part_magazine_8"
+      ]
+    },
+    "cheeks": {
+      "socket": "socket_cheeks",
+      "hide_parts_when_installed": [
+        "part_base_cheeks"
+      ]
+    },
+    "muzzle": {
+      "socket": "socket_muzzle_attachment",
+      "hide_parts_when_installed": []
+    },
+    "optic": {
+      "socket": "socket_optic",
+      "hide_parts_when_installed": []
+    },
+    "charm": {
+      "socket": "socket_charm",
+      "hide_parts_when_installed": []
+    }
+  }
+}

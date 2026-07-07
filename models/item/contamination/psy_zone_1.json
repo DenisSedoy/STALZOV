@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "czo:item/contamination/psy_zone_1"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "czo:item/contamination/thermal_zone_5"
+  }
+}
