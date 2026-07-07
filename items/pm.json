@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "czo:gun_renderer",
+    "base": "czo:item/pistol/pistol"
+  }
+}

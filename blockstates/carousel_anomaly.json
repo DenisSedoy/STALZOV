@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "czo:block/anomalies/carousel_anomaly"
+    }
+  }
+}
